@@ -1,0 +1,18 @@
+.navbarContainer {
+    padding: 25px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    align-items: flex-start;
+}
+
+.navLink {
+    margin: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+    background: rgba(230, 151, 78);
+}

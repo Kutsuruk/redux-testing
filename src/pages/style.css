@@ -1,0 +1,14 @@
+h1 {
+    padding-left: 40px;
+}
+
+.animate .blockRight{
+    transform: translateX(200px);
+    opacity: 0;
+}
+
+.animate .blockLeft {
+    transition: all .5ms;
+    transform: translateX(-200px);
+    opacity: 0;
+}
